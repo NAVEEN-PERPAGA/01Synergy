@@ -1,0 +1,30 @@
+
+.sidebar {
+    line-height: 60px;
+    margin-left: -35px;
+  }
+
+li.color {
+  color: rgb(80, 177, 42);
+}
+  
+  
+  .side-bar-list{
+    list-style: none;
+    line-height: 2.2rem;
+    font-weight: bolder;
+    font-size: 0.9rem;
+  }
+
+  .side-heading-list{
+    color: black;
+  }
+  
+.side-bar-footer{
+    background-color: rgb(80, 177, 42);
+    color: white;
+    padding: 25px;
+    padding-left: 100px;
+    margin-left: -60px;
+    margin-right: -15px
+  }

@@ -1,0 +1,53 @@
+import React from "react";
+import { Sidebar } from "./sidebar";
+import { Header } from "./header_C";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCloudUploadAlt } from "@fortawesome/free-solid-svg-icons";
+
+export const Accreditation = () => {
+  return (
+    <>
+      <Header />
+      <div id="div">
+        <h2>Become an Efficiency Partner</h2>
+        <br />
+        <div className="row">
+          <div className="col-3">
+            <Sidebar />
+          </div>
+          <div className="column verticalLine">
+            <div className="ml-5">
+              <h4>Tell us about your business</h4>
+              <p>
+                Upload copies of your accreditations / certifications. These
+                will be displayed on your listing to give your potential
+                customers a sense of your capabilities.
+              </p>
+              <hr className="w-100" />
+              <br />
+              <a className="btn accreditation">
+                {
+                  <FontAwesomeIcon
+                    icon={faCloudUploadAlt}
+                    size="2x"
+                    color="black"
+                  />
+                }
+                <p className="accreditation ml-4">
+                  Add a accredication / certification
+                </p>
+              </a>
+              <div className="row ml-4 button-margin-top">
+                <a className="btn col-3 back-button">BACK</a>
+                <a className="btn next-button ml-auto" href="/">
+                  SKIP
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
