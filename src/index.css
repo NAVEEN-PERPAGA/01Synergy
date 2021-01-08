@@ -207,23 +207,32 @@ a.submit-application-button {
 .middle {
   text-align: center;
 }
-.efficienc-expert-button {
+.efficiency-expert-button {
   background-color: white;
   font-size: x-large;
   height: 180px;
-  width: 170px;
+  /* width: 250px; */
   padding-top: 100px;
   border: solid 1px
+}
+.margin-left {
+  margin-left: 20%;
+}
+.efficiency-small {
+  text-align: center;
+  width: 580px;
+  margin-left: 340px;
+  font-size: smaller;
 }
 
 
 
 
 
-div.d2 {
+.d2 {
   background-color: rgba(238, 238, 238, 0.876);
   padding: 50px;
-  margin-left: 50px;
+  width: 50%;
 }
 
 .activation-email {
@@ -278,7 +287,7 @@ a.next-button1 {
 
 a.navbar-brand {
   padding: 5px;
-  font-size: 50px;
+  font-size: xx-large;
   font-weight: bold;
   color: rgb(80, 177, 42);
   font-style: italic;
@@ -309,5 +318,7 @@ a.back-button {
   margin-left: 600px;
   width: 500px;
 }
+
+@media 
 
 

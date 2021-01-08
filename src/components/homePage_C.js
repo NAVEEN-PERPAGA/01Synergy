@@ -45,7 +45,7 @@ export const Home = () => {
             </h5>
           </div>
 
-          <div className="col-md-5 d2">
+          <div className="col-md-6 d2">
             <p className="p">
               <b>Join the Efficiency Partner Network</b>
             </p><br/>

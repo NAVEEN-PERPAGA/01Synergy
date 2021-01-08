@@ -9,18 +9,24 @@ export const EfficiencyExpert = () => {
         </a>
       </nav>
       <div id="div">
-          <h1 className="middle">Find an Efficiency Expert</h1><br/><br/>
-          <h2 className="middle">I’m looking for a</h2>
-
-          <a className="btn efficienc-expert-button">
-            Contractor
-          </a>  
-          <a className="btn efficienc-expert-button ml-5">
-             Distributor
-          </a> 
-          <a className="btn efficienc-expert-button ml-5">
-            Consulting <br/>Engineer
-          </a> 
+        <h1 className="middle">Find an Efficiency Expert</h1>
+        <br />
+        <br />
+        <h2 className="middle">I’m looking for a</h2>
+        <div className="row">        
+            <a className="col-2 btn efficiency-expert-button margin-left">Contractor</a>
+            <a className="col-2 btn efficiency-expert-button ml-5">Distributor</a>
+            <a className="col-2 btn efficiency-expert-button ml-5">
+                Consulting <br /> Engineer
+            </a>
+        </div>
+        <p className="efficiency-small mt-5">
+            By continuing you acknowledge that the Efficiency Partner Network
+            listings are independent businesses that are solely responsible for
+            the performance and quality of their work. Efficiency Nova Scotia
+            does not guarantee and is not responsible for any work performed by
+            these businesses.
+        </p>
       </div>
     </>
   );
